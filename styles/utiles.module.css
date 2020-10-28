@@ -1,0 +1,39 @@
+.imgcircle {
+  border-radius: 9999px;
+  width: 8rem;
+  height: 8rem;
+}
+
+.divcenter {
+  text-align: center;
+}
+
+.allcenter {
+  text-align: center;
+  line-height: 20rem;
+  height: 100%;
+  font-size: 2rem;
+  font-family: serif;
+}
+
+.divright {
+  margin: 0 auto;
+  width: 92%;
+  text-align: start;
+}
+
+.divr {
+  text-align: end;
+}
+
+@media screen and (max-width: 400px) {
+    .allcenter {
+      font-size: 120%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .allcenter {
+      font-size: 200%;
+    }
+}
